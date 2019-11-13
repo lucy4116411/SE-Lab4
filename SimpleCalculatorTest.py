@@ -18,6 +18,15 @@ class TestCalculator(unittest.TestCase):
 
     def test_float_minus(self):
         self.assertEqual(cal.minus(99.9,12), 87.9)
+        
+    def test_int_multi(self):
+        self.assertEqual(cal.multi(1,43),43)
+        
+    def test_int_multi_2(self):
+        self.assertEqual(cal.multi(-9,9),-81)
+
+    def test_float_multi(self):
+        self.assertEqual(cal.multi(99.9,1), 99.9)
 
 if __name__ == '__main__':
     unittest.main()
