@@ -25,7 +25,7 @@ script:
 
 deploy:
   provider: heroku
-  api_key:
+  api_key:2a00b54e-d430-440f-9139-cc9dbdb0f45f
     secure: $HEROKU_API_KEY
   app: se-lab4
   on:
